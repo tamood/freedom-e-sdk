@@ -219,15 +219,9 @@ struct __metal_driver_sifive_gpio0 __metal_dt_gpio_10012000 = {
 };
 
 /* From pwm@10015000 */
-struct __metal_driver_sifive_pwm0 __metal_dt_pwm_10015000 = {
-    .pwm.vtable = &__metal_driver_vtable_sifive_pwm0.pwm,
-};
-
+struct __metal_driver_sifive_pwm0 __metal_dt_pwm_10015000;
 /* From spi@10014000 */
-struct __metal_driver_sifive_spi0 __metal_dt_spi_10014000 = {
-    .spi.vtable = &__metal_driver_vtable_sifive_spi0.spi,
-};
-
+struct __metal_driver_sifive_spi0 __metal_dt_spi_10014000;
 /* From serial@10013000 */
 struct __metal_driver_sifive_uart0 __metal_dt_serial_10013000 = {
     .uart.vtable = &__metal_driver_vtable_sifive_uart0.uart,

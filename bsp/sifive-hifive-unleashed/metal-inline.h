@@ -353,35 +353,17 @@ struct __metal_driver_sifive_gpio0 __metal_dt_gpio_10060000 = {
 };
 
 /* From i2c@10030000 */
-struct __metal_driver_sifive_i2c0 __metal_dt_i2c_10030000 = {
-    .i2c.vtable = &__metal_driver_vtable_sifive_i2c0.i2c,
-};
-
+struct __metal_driver_sifive_i2c0 __metal_dt_i2c_10030000;
 /* From pwm@10020000 */
-struct __metal_driver_sifive_pwm0 __metal_dt_pwm_10020000 = {
-    .pwm.vtable = &__metal_driver_vtable_sifive_pwm0.pwm,
-};
-
+struct __metal_driver_sifive_pwm0 __metal_dt_pwm_10020000;
 /* From pwm@10021000 */
-struct __metal_driver_sifive_pwm0 __metal_dt_pwm_10021000 = {
-    .pwm.vtable = &__metal_driver_vtable_sifive_pwm0.pwm,
-};
-
+struct __metal_driver_sifive_pwm0 __metal_dt_pwm_10021000;
 /* From spi@10040000 */
-struct __metal_driver_sifive_spi0 __metal_dt_spi_10040000 = {
-    .spi.vtable = &__metal_driver_vtable_sifive_spi0.spi,
-};
-
+struct __metal_driver_sifive_spi0 __metal_dt_spi_10040000;
 /* From spi@10041000 */
-struct __metal_driver_sifive_spi0 __metal_dt_spi_10041000 = {
-    .spi.vtable = &__metal_driver_vtable_sifive_spi0.spi,
-};
-
+struct __metal_driver_sifive_spi0 __metal_dt_spi_10041000;
 /* From spi@10050000 */
-struct __metal_driver_sifive_spi0 __metal_dt_spi_10050000 = {
-    .spi.vtable = &__metal_driver_vtable_sifive_spi0.spi,
-};
-
+struct __metal_driver_sifive_spi0 __metal_dt_spi_10050000;
 /* From teststatus@4000 */
 struct __metal_driver_sifive_test0 __metal_dt_teststatus_4000 = {
     .shutdown.vtable = &__metal_driver_vtable_sifive_test0.shutdown,
